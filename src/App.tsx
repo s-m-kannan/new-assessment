@@ -7,7 +7,6 @@ import Form from './component/Form';
 import Payment from './component/Payment';
 import Bill from './component/Bill';
 import Confirm from './component/Confirm';
-import Sample from './component/sample';
 function App() {
   return(
 <Router>
@@ -19,7 +18,6 @@ function App() {
     <Route path='/payment' element={<Payment />}/>
     <Route path='/bill' element={<Bill />}/>
   <Route path='/confirm' element={<Confirm />}/>
-  <Route path='/sample' element={<Sample/>}/>
   
   </Routes>
 </Router>

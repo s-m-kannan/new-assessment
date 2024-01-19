@@ -1,0 +1,81 @@
+*{
+    font-family: 'Abril Fatface', serif;
+}
+/* body {
+    background-color: #E8E3CF;
+} */
+
+h2{
+    text-align: center;
+    color:brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+}
+.about {
+    width: 50%;
+    height: 300px;
+    background-image: url('../images/change.jpeg');
+    background-position: center;
+    background-size: contain;
+    border: 1px solid #ccc;
+    padding: 20px;
+    align-items: center;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: scaleUpDown 3s ease-in-out infinite;
+  }
+  
+  @keyframes scaleUpDown {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2); 
+    }
+  }
+  
+  
+.head{
+    color: white;
+    font-weight: bold;
+   
+}
+p{
+    color:white
+}
+.title{
+    color:blue
+}
+.last{
+    background-color: black;
+    color:white;
+    width:100%;
+    height:100px;
+    display: flex;
+    flex-direction: row; 
+}
+.details,.details1,.details2{
+    margin-left: 200px;
+}
+.coffee-buy{
+    background-color: #523821;
+    color:white;
+    padding:16px 16px;
+    border:1px solid #523821;
+    margin:auto;
+}
+
+.book{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45px;
+}
+ul {
+    list-style-type: none;
+  }

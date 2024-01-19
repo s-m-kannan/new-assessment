@@ -1,0 +1,65 @@
+.main {
+    text-align: center;
+    margin: 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* background-color: #f4a460; */
+    background-color: #E8E3CF;
+  }
+  
+  .heading {
+    color: #333;
+  }
+  
+  .coffee-image {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px 0;
+  }
+  
+  .select-container {
+    margin: 20px 0;
+  }
+  
+  .form-select {
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .quantity-container {
+    margin-bottom: 20px;
+  }
+  
+  .quantity-button {
+    background-color: #523821;
+    color: #fff;
+    padding: 8px 12px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin: 0 5px;
+  }
+  
+  .quantity {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 10px;
+  }
+  
+  .book-button {
+    background-color: #523821;
+    color: #fff;
+    padding: 12px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .book-button:hover {
+    background-color: #523821;
+  }
+  

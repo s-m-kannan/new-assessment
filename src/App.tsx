@@ -1,26 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './component/Home';
+import Product from './component/Product';
+// import Main from './component/Main';
+import Form from './component/Form';
+import Payment from './component/Payment';
+import Bill from './component/Bill';
+import Confirm from './component/Confirm';
+import Sample from './component/sample';
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  return(
+<Router>
+  <Routes>
+    <Route path='/' element={<Home />}/>
+    <Route path='/product' element={<Product />}/>
+    {/* <Route path='Main' element={<Main />}/> */}
+    <Route path='/form' element={<Form />}/>
+    <Route path='/payment' element={<Payment />}/>
+    <Route path='/bill' element={<Bill />}/>
+  <Route path='/confirm' element={<Confirm />}/>
+  <Route path='/sample' element={<Sample/>}/>
+  
+  </Routes>
+</Router>
   );
 }
-
-export default App;
+export default App
